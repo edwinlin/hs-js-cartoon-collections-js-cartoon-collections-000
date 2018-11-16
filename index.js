@@ -43,21 +43,6 @@ function findTheCheese (foods) {
   //   }
   //   i++
   // }
-  
-  // var array = []
-  // foods.forEach(function(food){
-  //   cheeses.forEach(function(cheese){
-  //     // console.log(food + " " + cheese)
-  //     // console.log(food === cheese)
-  //     if(food === cheese){
-  //       array.push(food)
-  //     }
-  //   })
-  // })
-  // if (array.length > 0){
-  //   return array[0]
-  // }
-  // forEach method does not break during loop
 
   var i = 0
   while(i<foods.length){
@@ -66,5 +51,6 @@ function findTheCheese (foods) {
     }
     i++
   }
+  
   return 'no cheese!'
 }
