@@ -59,12 +59,12 @@ function findTheCheese (foods) {
   // }
   // forEach method does not break during loop
 
-  // var i = 0
-  // while(i<foods.length){
-  //   if (cheeses.includes(foods[i])){
-  //     return foods[i]
-  //   }
-  //   i++
-  // }
+  var i = 0
+  while(i<foods.length){
+    if (cheeses.includes(foods[i])){
+      return foods[i]
+    }
+    i++
+  }
   return 'no cheese!'
 }
