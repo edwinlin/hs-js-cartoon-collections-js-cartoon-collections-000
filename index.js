@@ -45,7 +45,7 @@ function findTheCheese (foods) {
   
   // foods.forEach(function(food){
   //   cheeses.forEach(function(cheese){
-  //     if (food === cheese){
+  //     if(food === cheese){
   //       return food
   //     }
   //   })
