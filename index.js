@@ -9,27 +9,24 @@ function dwarfRollCall(dwarves) {
 }
 
 function summonCaptainPlanet(planeteerCalls){
-  // var array = []
+  var array = []
 
-  // planeteerCalls.forEach(function(call){
-  //   array.push(call.toUpperCase() + "!")
-  // })
-
-  // return array
-  return planeteerCalls.map(function(call){
-    return call.toUpperCase() + "!"
+  planeteerCalls.forEach(function(call){
+    array.push(call.toUpperCase() + "!")
   })
+
+  return array
 }
 
 function longPlaneteerCalls(words) {
-for (var i of words){
-if (i.length > 4){
-  return true;
-}
-else if (i.length <= 4){
-  return false;
-}
-}
+  var i = 0
+  while(i < words.length){
+    if (words[i].length > 4){
+      return true
+    }
+    i++
+  }
+  return false
 }
 
 function findTheCheese (foods) {
