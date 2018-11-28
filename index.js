@@ -1,6 +1,6 @@
 function dwarfRollCall(dwarves) {
   var string = ""
-  var i = 0
+  var i = dwarves.length/2
   while (i < dwarves.length){
     string += `${i+1}. ${dwarves[i]} `
     i++
@@ -41,4 +41,18 @@ function findTheCheese (foods) {
   }
   
   return 'no cheese!'
+}
+
+function wordsWithB(array){
+  var newArray = []
+  
+  var i = 0
+  while (i < array.length ) {
+    if(array[i][0] === 'b'){
+      newArray.push(array[i])
+    }
+    i++
+  }
+  
+  return newArray
 }
